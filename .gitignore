@@ -60,3 +60,14 @@ jspm_packages/
 
 # Yarn Integrity file
 .yarn-integrity
+
+# Development files
+*.bat
+*.sh
+*_SOLUTIONS.md
+START_*.md
+
+# Cache directories
+.vite/
+.cache/
+.parcel-cache/
