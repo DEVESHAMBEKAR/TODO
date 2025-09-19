@@ -2,8 +2,7 @@ services:
   - type: web
     name: todo-backend-api
     env: node
-    rootDir: todos-backend-master/todos-backend-master
-    buildCommand: npm install
+    buildCommand: npm run install-backend
     startCommand: npm start
     envVars:
       - key: PORT

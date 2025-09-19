@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "build": "cd todos-frontend-main/todos-frontend-main && npm install && npm run build",
-    "dev": "cd todos-frontend-main/todos-frontend-main && npm run dev"
+    "dev": "cd todos-frontend-main/todos-frontend-main && npm run dev",
+    "start": "cd todos-backend-master/todos-backend-master && node server.js",
+    "install-backend": "cd todos-backend-master/todos-backend-master && npm install"
   },
   "workspaces": [
     "todos-frontend-main/todos-frontend-main",
