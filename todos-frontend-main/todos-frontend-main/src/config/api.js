@@ -3,7 +3,7 @@ const getApiUrl = () => {
   // Check if we're in production (deployed)
   if (import.meta.env.PROD) {
     // Use production backend URL
-    return import.meta.env.VITE_API_URL || 'https://your-backend-url.railway.app';
+    return import.meta.env.VITE_API_URL || 'https://todo-fw7e.onrender.com';
   }
   
   // Development mode - use localhost
