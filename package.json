@@ -1,0 +1,12 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd todos-frontend-main/todos-frontend-main && npm install && npm run build",
+    "dev": "cd todos-frontend-main/todos-frontend-main && npm run dev"
+  },
+  "workspaces": [
+    "todos-frontend-main/todos-frontend-main",
+    "todos-backend-master/todos-backend-master"
+  ]
+}
